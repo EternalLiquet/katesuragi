@@ -1,22 +1,31 @@
 {
   "name": "katesuragi",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "A website for my Katelyn to display her awesome work",
+  "main": "index.js",
+  "devDependencies": {
+    "react-scripts": "1.1.0"
+  },
   "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "gh-pages": "^1.2.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EternalLiquet/katesuragi.git"
   },
-  "homepage": "http://gitname.github.io/react-gh-pages"
+  "author": "Aldrin Natividad (EternalLiquet/Liquet)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EternalLiquet/katesuragi/issues"
+  },
+  "homepage": "https://github.com/EternalLiquet/katesuragi#readme"
 }
