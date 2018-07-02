@@ -844,7 +844,11 @@
 				overflow: hidden;
 				opacity: 0;
 				position: relative;
-				width: 25%;
+				width: 75%;
+                max-height: 20%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5%;
 			}
 
 				.gallery .content .media a {
@@ -856,9 +860,11 @@
 					-webkit-transition: -webkit-transform 0.2s ease-in-out;
 					-ms-transition: -ms-transform 0.2s ease-in-out;
 					transition: transform 0.2s ease-in-out;
+                    width: 50%;
 					max-width: 100%;
+                    margin-left: 25%;
+                    margin-right: 25;
 					height: auto;
-					vertical-align: middle;
 				}
 
 				.gallery .content .media:hover img {
